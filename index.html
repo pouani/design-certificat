@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body class="body">
+    <style>
+        
+        /* position: absolute;
+    background: #00ada8;
+    width: 603px;
+    height: 714px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2; */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+    .body{
+        overflow:hidden !important;
+        font-family: 'Montserrat', sans-serif;
+    }
+        .d-certificat{
+            max-height: 650px;
+            height: 100%;
+            background-color: #fff;
+        }
+        .d-container{
+            height: 80vh;
+            background-color: #fff;
+            margin: 0 5rem;
+            margin-top: 7rem;
+            position: relative;
+        }
+        .d-text, h2{
+            text-align: center;
+        }
+        .d-certificat h2{
+            color: #00ADA7;
+            font-size: 34px;
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+        .d-text p{
+            font-size: 22px;
+            font-weight: 600;
+            color: #666;
+        }
+
+        .d-text p span{
+            font-weight: 400;
+            line-height: 1.2;
+        }
+        .theme{
+            font-size: 32px;
+            text-transform: uppercase;
+            color: #32325d;
+        }
+        hr{
+            background-color: #00ADA7;
+            border: none;
+            height: 1px;
+        }
+        .d-fm{
+            text-align: center;
+            max-width: 230px;
+        }
+        .d-info{
+            font-family: 'Dancing Script', cursive;
+            font-size: 42px;
+            color: #00ADA7;
+        }
+        .formateur{
+            position: absolute;
+            left: 80%;
+        }
+        .moderateur{
+            position: absolute;
+            right: 80%;
+        }
+        .d-footer{
+            width: 100%;
+        }
+        .card-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 500px;
+            margin: auto;
+        }
+        .d-img{
+            max-width: 160px;
+        }
+        .images_style{
+           width: 260px;
+        }
+        .m2{
+            margin-left: 60px;
+        }
+        img{
+            width: 100%;
+        }
+        button{
+            border: none;
+            background: transparent;
+        }
+        .design-1 {
+            transform: rotate(-40deg);
+            bottom: -437px;
+            left: -400px;
+        }
+        .design-1, .design-2 {
+            position: absolute;
+            background: #00ada8;
+            width: 577px;
+            height: 715px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: -2;
+        }
+        .design-1-green, .design-2-green {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 90%;
+            background: #32325d;
+            border: 15px solid #fff;
+        }
+        .design-1-linear {
+            background:  #00ada8;
+        }
+        .design-1-linear, .design-2-linear {
+            width: 90%;
+            height: 90%;
+            border: 15px solid #fff;
+        }
+        .design-2 {
+            transform: rotate(321deg);
+            top: -400px;
+            right: -400px;
+        }
+
+        .design-2-linear {
+            background:  #00ADA7;
+        }
+
+        .container_desgin_1 {
+            border-left: 4px solid #00ADA7;
+            border-top: 4px solid #00ADA7;
+            top: 0;
+            left: 0;
+        }
+        .container_desgin_2 {
+            border-right: 4px solid #00ADA7;
+            border-bottom: 4px solid #00ADA7;
+            right: 0;
+            bottom: 0;
+        }
+        .container_desgin_1, .container_desgin_2 {
+            position: absolute;
+            width: 195px;
+            height: 150px;
+            background: transparent;
+        }
+
+        .text-center{
+            text-align: center;
+        }
+
+        .d-pt{
+            padding-top: .6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+    </style>
+    <div class="d-container">
+            <div class="design-1">
+                <div class="design-1-green">
+                    <div class="design-1-linear"></div>
+                </div>
+            </div>
+        <div class="d-certificat">
+            <div class="container_desgin_1"></div>
+            <div class="d-pt">
+                <h2>Attestation de participation</h2>
+                <div class="card-img">
+                    <button class="d-img">
+                        <img src="images/logo.png" alt="" /> 
+                    </button>
+                    <button class="m2 images_style">
+                        <img src="images/logo2.png" alt="" /> 
+                    </button>
+                </div>
+                <div class="text-center">Atteste que</div>
+                <div class="d-text">
+                    <h2>Msr David Ulrich Pouani Dev</h2>
+                    <p><span>a participé à la </span>Online Medicasure Training intitulée </p>
+                    <h3 class="theme">Les Fibromes utérins et la PMA</h3>
+                    <div>tenue le 10 Decembre 2022</div>
+                </div><br /><br />
+                <div>
+                    <hr>
+                    <h4>
+                        <span>Par</span>
+                        <span>Dr</span>
+                        <span>Christian</span>
+                        <span>KAMTO FOTSO</span>
+                    </h4>
+                </div>
+                <!-- <div class="d-footer">
+                    <div class="formateur d-fm">
+                        <h4>Modérateur</h4>
+                        <hr>
+                        <div class="d-inf">
+                            <div>
+                                <span>Dr</span>
+                                <span>Christian</span>
+                                <span>KAMTO FOTSO</span>
+                            </div>
+                            <div>
+                                <span>Dr</span>
+                                <span>Isabelle</span>
+                                <span>DUPOND</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="moderateur d-fm">
+                        <h4>Formateur</h4>
+                        <hr>
+                        <div class="d-inf">
+                            <div>
+                                <span>M.</span>
+                                <span>Yannick</span>
+                                <span>ESSENGUE</span>
+                            </div>
+
+                            <div>
+                                <span>Prof.</span>
+                                <span>Jeannette</span>
+                                <span>FOTSO</span>
+                            </div>
+                            <div>
+                                <span>Mme</span>
+                                <span>Edwige</span>
+                                <span>LONGUE</span>
+                            </div>
+                            <div>
+                                <span>Dr</span>
+                                <span>Eve</span>
+                                <span>TOUKAM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        <div class="container_desgin_2"></div>
+        </div>
+        <div class="design-2">
+            <div class="design-2-green">
+                <div class="design-2-linear"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
